@@ -11,8 +11,8 @@
 * Edit db/user params
 
 ### API Endpoints
-* $ GET /api/users		### Gets all the users from DB 
-* $ GET /api/user/{id}		### Get the user with ID from DB
-* $ DELETE /api/user/delete/{id}		### Deletes a user of given ID from DB
-* $ PUT /api/user/update/{id}		### Updates an existing user of given ID in DB
-* $ POST /api/user/add		### Adds a user to the DB
+* $ GET /api/users		: Gets all the users from DB 
+* $ GET /api/user/{id}		: Get the user with ID from DB
+* $ DELETE /api/user/delete/{id}		: Deletes a user of given ID from DB
+* $ PUT /api/user/update/{id}		: Updates an existing user of given ID in DB
+* $ POST /api/user/add		: Adds a user to the DB
