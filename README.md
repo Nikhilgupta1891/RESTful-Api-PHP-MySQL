@@ -1,4 +1,4 @@
-# RESTful API
+# Introduction
 
 * This is a RESTful API built using the SlimPHP framework. 
 * It uses MySQL as DB for Storage.
