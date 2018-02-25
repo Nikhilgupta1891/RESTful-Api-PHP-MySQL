@@ -51,6 +51,7 @@ $app->get('/api/customers/{id}',
             }
 );
 
+// Add new customer
 $app->post('/api/customer/add', 
                 function(Request $request, Response $response) {
                     $first_name = $request->getParam('first_name');
@@ -83,6 +84,7 @@ $app->post('/api/customer/add',
                    }
 });
 
+// Delete existing customer
 $app->delete('/api/customer/delete/{id}', 
                 function(Request $request, Response $response) {
                    $id = $request->getAttribute('id');
@@ -103,6 +105,7 @@ $app->delete('/api/customer/delete/{id}',
                    }
 });
 
+// Update customer
 $app->put('/api/customer/update/{id}', 
                 function(Request $request, Response $response) {
                     
